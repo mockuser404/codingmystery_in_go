@@ -53,5 +53,6 @@ func panicError(err error) {
 
 func main() {
 	println("https://codingmystery.com/the-beginning")
-	shredRecovery()
+	// shredRecovery()
+	// navigateTunnels()
 }

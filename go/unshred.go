@@ -6,13 +6,13 @@ import (
 	"sort"
 )
 
-/*func numRunes(s string) int {
+/* func numRunes(s string) int {
 	c := 0
 	for range s {
 		c += 1
 	}
 	return c
-}
+} */
 
 func lineLen(s string) int {
 	c := 0
@@ -23,7 +23,7 @@ func lineLen(s string) int {
 		}
 	}
 	return -1
-}*/
+}
 
 func numLines(s string) int {
 	lineC := 0
