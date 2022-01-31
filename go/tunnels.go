@@ -11,6 +11,7 @@ const (
 	wall runeT = iota
 	door
 	player
+	runeTcount
 )
 
 type pos struct{ x, y int }
