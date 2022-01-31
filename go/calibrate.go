@@ -20,12 +20,18 @@ func calibrateParticles() {
 	playerPos := pos{}
 	numlines := numLines(grid)
 	energyGrid := make([][]rune, numlines)
+	foundPlayer := false
 	for i, row := range strings.Split(grid, "\n") {
 		if i < numlines {
 			energyGrid[i] = []rune(row)
-			for j, r := range energyGrid[i] {
-				if r == runeMap[player] {
-					playerPos = pos{j, i}
+			if !foundPlayer {
+				// TODO this can be removed and grid.w/2, grid.h/2 can be used
+				// because in the question C is said to be the center.
+				for j, r := range energyGrid[i] {
+					if r == runeMap[player] {
+						playerPos = pos{j, i}
+						foundPlayer = true
+					}
 				}
 			}
 		}
