@@ -4,7 +4,7 @@ https://codingmystery.com/the-beginning
 
 My attempt in go.
 
-It would be helpful if someone could review it once and suggest any improvements.
+It would be helpful if someone could review it once and suggest any improvements in any of the following.
 
 - coding style
 - project layout
