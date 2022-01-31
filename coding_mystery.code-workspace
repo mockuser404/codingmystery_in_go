@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "go"
+		}
+	],
+	"settings": {
+		"go.goroot": "D:\\Software\\Scoop\\apps\\go\\current"
+	}
+}
